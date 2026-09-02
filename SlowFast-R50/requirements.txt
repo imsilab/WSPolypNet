@@ -1,0 +1,7 @@
+# Experiment dependency snapshot
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+opencv-python==4.13.0.92
+numpy==2.0.1
+pytorchvideo==0.1.5
+fvcore==0.1.5.post20221221

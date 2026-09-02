@@ -1,0 +1,65 @@
+{
+  "population": "middle validation subset",
+  "evaluated_annotated_frames": 4345,
+  "metrics": {
+    "Slow-R50 single-view CAM": {
+      "mean_iou": 0.1376017915,
+      "corloc_0.3": 0.1894131185,
+      "corloc_0.5": 0.0787111623,
+      "corloc_0.7": 0.0105868815
+    },
+    "SlowFast-R50 single-view CAM": {
+      "mean_iou": 0.1147805712,
+      "corloc_0.3": 0.1357882624,
+      "corloc_0.5": 0.0363636364,
+      "corloc_0.7": 0.0059838895
+    },
+    "R3D-18 single-view CAM": {
+      "mean_iou": 0.1254913728,
+      "corloc_0.3": 0.1675489068,
+      "corloc_0.5": 0.0653624856,
+      "corloc_0.7": 0.0082853855
+    },
+    "R(2+1)D-18 single-view CAM": {
+      "mean_iou": 0.0908672649,
+      "corloc_0.3": 0.1272727273,
+      "corloc_0.5": 0.0278481013,
+      "corloc_0.7": 0.0011507480
+    },
+    "X3D-M single-view CAM": {
+      "mean_iou": 0.1421698621,
+      "corloc_0.3": 0.2103567319,
+      "corloc_0.5": 0.0932105869,
+      "corloc_0.7": 0.0163406214
+    },
+    "X3D-M + MedSAM2 single-view": {
+      "mean_iou": 0.2902745171,
+      "corloc_0.3": 0.3686996548,
+      "corloc_0.5": 0.3371691600,
+      "corloc_0.7": 0.2794016110
+    },
+    "X3D-M + MedSAM2 five-view": {
+      "mean_iou": 0.3554572576,
+      "corloc_0.3": 0.4547756041,
+      "corloc_0.5": 0.4200230150,
+      "corloc_0.7": 0.3362485616
+    }
+  },
+  "five_view_size_breakdown": {
+    "criterion": "largest transformed GT box area / 224^2; small <= 0.05, large > 0.05",
+    "small": {
+      "frames": 2967,
+      "mean_iou": 0.2542300109,
+      "corloc_0.3": 0.3538928210,
+      "corloc_0.5": 0.3097404786,
+      "corloc_0.7": 0.2028985507
+    },
+    "large": {
+      "frames": 1378,
+      "mean_iou": 0.5734117140,
+      "corloc_0.3": 0.6719883890,
+      "corloc_0.5": 0.6574746009,
+      "corloc_0.7": 0.6233671988
+    }
+  }
+}

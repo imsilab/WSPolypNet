@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments and editors
+.venv/
+venv/
+env/
+.env
+.idea/
+.vscode/
+*.swp
+
+# Training/evaluation artifacts
+**/logs/
+**/runs/
+**/wandb/
+**/tensorboard/
+**/archive/
+*.log
+*.pid
+*.tmp
+*_CorLoc/
+*_ValidationData/
+video_classification_middle/
+middle_segment_single_view_best05/
+
+# Data are not distributed in this repository
+datasets/TrainVaild(video)_without_polyp/
+datasets/TrainValid(video)_with_polyp/
+datasets/ValidationData/
+datasets/ValidationData_removed_*/
+datasets/sample/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Third-party repositories and weights
+external/MedSAM2/*
+!external/MedSAM2/README.md
+*.pt
+*.ckpt
+
+# OS files
+.DS_Store
+Thumbs.db
