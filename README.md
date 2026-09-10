@@ -211,7 +211,3 @@ No source videos, annotations, patient metadata, training logs, caches, or raw p
 ## Citation
 
 If you use this code or the released weights, please cite the accompanying WSPolypNet paper. The final bibliographic entry will be added after publication.
-
-## Acknowledgements
-
-This project uses PyTorch, TorchVision, PyTorchVideo, OpenCV, and the third-party [MedSAM2](https://github.com/bowang-lab/MedSAM2) project.
